@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS';
+  font-size: medium;
+ }
+
+
+body {
+  margin: 0;
+}
+
+header img {
+  object-fit: cover;
+  width: 100%;
+  display: block;
+}
+
+nav {
+  height: 40px;
+  background:rgb(79, 141, 179);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 100%;
+  color: white;
+  padding: 0;
+  padding-left: 8px;
+}
+
+nav ul li a {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 8px;
+}
+
+li {
+  list-style: none;
+}
+
+.special {
+  color: #003399;
+  font-family: 'Lucida Calligraphy';
+  text-decoration: underline;
+  padding-left: 0;
+}
+
+section {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 378px;
+}
+
+h1 {
+  margin: 0;
+  color: #000066;
+  font-size: large;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+}
+
+h2 {
+  color: #4F8DB3;
+  font-size: medium;
+  font-family: "Trebuchet MS";
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+br {
+  line-height: 24px;
+}
+
+fieldset {
+  all: unset;
+  color: Black;
+  font-family: "Trebuchet MS";
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 0.25rem;
+}
+
+fieldset label, select {
+  font-size: 13px;
+  color: Black;
+}
+
+select {
+  font-style: italic;
+  min-width: 119px;
+}
+
+fieldset label {
+  text-align: end;
+  display: block;
+  min-width: 60.66px;
+}
+
+button {
+  margin: 19.5px 0;
+  width: 100%;
+  font-family: "Trebuchet MS";
+  font-size: small;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
